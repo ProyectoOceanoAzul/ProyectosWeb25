@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Maquetacion</title>
+
+</head>
+
+
+<body>
+
+    <!-- contenedor header -->
+    <header class="contenedor__header" id="Home">
+
+        <!-- contenedor__superior -->
+        <nav class="contenedor__superior">
+
+            <div class="contenedor">
+
+                <!-- logo -->
+                <div class="superior__logo">
+                    <h1 class="logo__titulo">
+                        Kath<span>rin</span>
+
+                    </h1>
+                </div>
+
+                <!-- menu -->
+                <div class="superior__menu">
+                    <ul class="menu__opciones">
+                        <li><a href="index.html">Heim</a></li>
+                        <li><a href="about.html">über Uns</a></li>
+                        <li><a href="services.html">Dienstleistungen</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+
+
+        <section class="contenedor__banner">
+            <div class="contenedor">
+
+                <div class="banner">
+                    <h5>
+                        Praesent fermentum libero
+                    </h5>
+
+                    <h2>
+                        Kath<span class="span2">rin</span>
+                        <br> Von Stauffenberg
+                    </h2>
+
+                    <p>
+                        Lorem ipsum viverra feugiat pellen tesque libero ut justo, ultrices in ligula emper tempufddfel
+                    </p>
+                </div>
+
+
+
+                <div class="fila__botones">
+                    <a href="about.html" class="btn btn__btn--black">über Uns</a>
+                    <a href="services.html" class="btn btn__btn--light">Dienstleistungen</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </header>
+
+
+
+    <!-- about -->
+    <section class="contenedor__homesection1">
+        <div class="contenedor">
+
+            <div class="homeseccion1__lado1">
+                <img src="./imagenes/about1.jpg" alt="about1" title="about1">
+
+            </div>
+
+
+            <div class="homeseccion1__lado2">
+
+                <h5>Unsere Infos</h5>
+                <h3>
+                    Wir haben über <span>30+</span> Jahre Erfahrung
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatem soluta consectetur minus
+                    dolorem perspiciatis necessitatibus pariatur veritatis maxime, officia similique, repellat illum.
+                    Maiores, laborum. Veritatis culpa sunt libero cupiditate?
+                </p>
+
+
+                <div class="fila__botones">
+                    <a href="about.html" class="btn btn__btn--black">über Uns</a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- valores -->
+    <section class="contenedor__homesection2">
+        <div class="contenedor">
+
+            <h5>Willkommen</h5>
+            <h3>
+                Ui turpis dolor <span>amet quam</span>
+            </h3>
+
+
+            <div class="cardvaloresfila">
+
+                <div class="cardvalor">
+                    <img src="./imagenes/proceso1.svg" alt="proceso1" title="proceso1">
+                    <h4>Praesent ullam</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.
+                    </p>
+                </div>
+
+                <div class="cardvalor">
+                    <img src="./imagenes/proceso1.svg" alt="proceso1" title="proceso1">
+                    <h4>Praesent ullam</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.
+                    </p>
+                </div>
+
+                <div class="cardvalor">
+                    <img src="./imagenes/proceso1.svg" alt="proceso1" title="proceso1">
+                    <h4>Praesent ullam</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.
+                    </p>
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- services -->
+    <section class="contenedor__homesection3">
+        <div class="contenedor">
+
+
+            <div class="homesection3__lado1">
+                <h5>Veritatis culpa?</h5>
+                <h3>Earum <span>voluptatem</span> soluta</h3>
+
+                <p>
+                    Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+                    tempufddfel.Lorem ipsum dolor
+                    sit, amet consectetur elit. Earum mollitia cum ex ipsam autem!earum sequi amet.
+                </p>
+
+                <div class="fila__botones">
+                    <a href="services.html" class="btn btn__btn--black">Dienstleistungen</a>
+                </div>
+            </div>
+
+
+
+
+            <div class="homesection3__lado2">
+                <div class="cardservices">
+                    <div class="cardservices__icono">
+                        <img src="./imagenes/service2.svg" alt="service1" title="service1">
+                    </div>
+
+
+                    <div class="cardservices__texto">
+                        <h4>curae fers luctus</h4>
+                        <p>
+                            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula tempufddfel.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="cardservices">
+                    <div class="cardservices__icono">
+                        <img src="./imagenes/service2.svg" alt="service1" title="service1">
+                    </div>
+
+
+                    <div class="cardservices__texto">
+                        <h4>curae fers luctus</h4>
+                        <p>
+                            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula tempufddfel.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- galeria de fotos -->
+    <section class="contenedor__homesection4">
+        <div class="contenedor">
+            <h5>Veritatis culpa?</h5>
+            <h3>Earum <span>voluptatem</span> soluta</h3>
+
+            <div class="galeriafila">
+
+                <div class="cardgaleria">
+                    <img src="./imagenes/service1.jpg" alt="service1" title="service1">
+                </div>
+
+                <div class="cardgaleria">
+                    <img src="./imagenes/service2.jpg" alt="service1" title="service1">
+                </div>
+
+                <div class="cardgaleria">
+                    <img src="./imagenes/service3.jpg" alt="service1" title="service1">
+                </div>
+
+            </div>
+
+
+
+            <div class="galeriafila" style="margin-top: 30px;">
+
+                <div class="cardgaleria">
+                    <img src="./imagenes/service3.jpg" alt="service1" title="service1">
+                </div>
+
+                <div class="cardgaleria">
+                    <img src="./imagenes/service2.jpg" alt="service1" title="service1">
+                </div>
+
+                <div class="cardgaleria">
+                    <img src="./imagenes/service1.jpg" alt="service1" title="service1">
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- testimonios -->
+    <section class="contenedor__homesection5">
+
+        <div class="contenedor">
+
+            <div class="testimonialfila">
+                <div class="testimonial">
+                    <img src="./imagenes/testimonial1.svg" alt="testimonial" title="testimonial">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sequi sint, officia odio dolorum
+                        et ullam quos tempora itaque est? Veniam, consequatur inventore nulla eligendi possimus quam
+                        ratione sunt eaque.
+                    </p>
+
+                    <div class="cardtestimonial">
+                        <div class="testimonial__imagen">
+                            <img src="./imagenes/testimonial1.jpg" alt="testimonial1" title="testimonial1">
+                        </div>
+
+                        <div class="testimonial__texto">
+                            <h5>Annelien Van Der Steen</h5>
+                            <h4>Inventore Nulla</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- contacto-->
+    <section class="contenedor__homesection6">
+        <div class="contenedor">
+
+            <h5>Veritatis culpa?</h5>
+            <h3>Earum <span>voluptatem</span> soluta</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem reiciendis earum suscipit,
+                adipisci
+                tenetur laudantium ea officia non assumenda sunt repellendus maxime ab, mollitia fugiat perspiciatis
+                cupiditate accusamus eveniet!
+            </p>
+
+
+            <div class="fila__botones">
+                <a href="services.html" class="btn btn__btn--black">Dienstleistungen</a>
+                <a href="contact.html" class="btn btn__btn--green">Kontakt</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- contenedor__footer -->
+    <section class="contenedor__footer">
+        <div class="contenedor">
+            <div class="footer__fila">
+                <div class="footer__section1">
+                    <h4>Kathrin</h4>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, non!
+                    </p>
+
+                    <div class="redsocial">
+                        <a href="#"><img src="./imagenes/facebook1.svg" alt="facebook1" title="facebook1"></a>
+
+                        <a href="#"><img src="./imagenes/twitter2.svg" alt="twitter2" title="twitter2"></a>
+
+                        <a href="#"><img src="./imagenes/instagram2.svg" alt="instagram2" title="instagram2"></a>
+
+                    </div>
+                </div>
+
+
+                <div class="footer__section1">
+                    <h4>Link</h4>
+
+                    <ul class="menu__opciones">
+                        <li><a href="index.html">» Heim</a></li>
+                        <li><a href="about.html">» über Uns</a></li>
+                        <li><a href="services.html">» Dienstleistungen</a></li>
+                        <li><a href="contact.html">» Kontakt</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer__section1">
+                    <h4>Dienstleistungen</h4>
+
+                    <ul class="menu__opciones">
+                        <li><a href="services.html">» Dienstleistungen 1</a></li>
+                        <li><a href="services.html">» Dienstleistungen 2</a></li>
+                        <li><a href="services.html">» Dienstleistungen 3</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer__section1">
+                    <h4>Kontakt</h4>
+
+                    <ul class="menu__opciones">
+                        <li><a href="services.html">» +44 123 984 439</a></li>
+                        <li><a href="services.html">» mail@example.com</a></li>
+                        <li><a href="services.html">» London, 235 Terry, 10001</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- pie -->
+    <footer class="contenedor__footer">
+        <div class="contenedor">
+
+            <div class="pie__titulo">
+                <p>
+                    &copy;2024, Derechos Reservados, Diseñado por
+                    <span class="autor">93R50N</span>
+
+                    <br>
+                    Cada aporte, por más pequeño que sea, puede marcar la diferencia en la vida de una persona.
+                    Donación:
+                    <span class="donacion">
+                        <a href="https://wa.link/5nawh3"> Plin o Yape</a>
+                    </span>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
